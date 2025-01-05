@@ -55,7 +55,7 @@ body {
 }
 
 .img-container {
-  background: url("./cake.jpeg") no-repeat;
+  background: url("./cookies.jpg") no-repeat;
   background-size: cover;
   text-align: center;
   height: 90vh;
@@ -64,14 +64,16 @@ body {
 }
 
 .img-txt {
-  color: rgb(24, 2, 27);
-  padding-top: 25%;
-  padding-bottom: 8.5%;
-  font-size: 50px;
-  background-color: #00000022;
+  color: rgba(4, 0, 0, 0.971);
+  padding-top: 13%;
+  padding-left: 5%;
+  padding-bottom: 4.8%;
+  font-size: 60px;
 }
 .img-txt p {
   font-size: 25px;
+  font-weight: 20%;
+  color: beige;
 }
 .form input {
   padding: 10px 90px;
@@ -141,4 +143,19 @@ ul {
 .card-flex {
   display: flex;
   justify-content: space-between;
+}
+
+.blog-img {
+  background-color: #e09bbacb;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 20px;
+  margin: 80px;
+}
+
+.caramel-btn {
+  background-color: #c8b3c8;
+}
+.caramel-btn button:hover {
+  background-color: #cd43cd;
 }
