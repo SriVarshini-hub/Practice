@@ -89,7 +89,7 @@ body {
 }
 
 .card-sec {
-  padding: 80px 80px;
+  padding: 60px 60px;
   background-color: #faf1f7;
 }
 
@@ -144,20 +144,25 @@ ul {
   display: flex;
   justify-content: space-between;
 }
+.blog-sec {
+  padding: 40px 40px;
+  background-color: #faf1f7;
+}
 
 .blog-img {
   background-color: #e09bbacb;
   border-radius: 10px;
   overflow: hidden;
   padding: 20px;
-  margin: 80px;
+  margin: 20px;
 }
 .blog-img p {
   font-size: 15px;
   font-weight: 100px;
 }
 .caramel-btn {
-  background-color: #c8b3c8;
+  background-color: #f3dbd3fc;
+  border-radius: 10px;
 }
 .caramel-btn button:hover {
   background-color: #cd43cd;
@@ -179,4 +184,6 @@ ul {
 
 .blog-grid {
   display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
 }
