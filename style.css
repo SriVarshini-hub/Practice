@@ -73,7 +73,7 @@ body {
 .img-txt p {
   font-size: 25px;
   font-weight: 20%;
-  color: beige;
+  color: rgba(4, 0, 0, 0.971);
 }
 .form input {
   padding: 10px 90px;
@@ -152,10 +152,31 @@ ul {
   padding: 20px;
   margin: 80px;
 }
-
+.blog-img p {
+  font-size: 15px;
+  font-weight: 100px;
+}
 .caramel-btn {
   background-color: #c8b3c8;
 }
 .caramel-btn button:hover {
   background-color: #cd43cd;
+}
+
+.blog-content {
+  text-align: center;
+  padding: 30px 80px;
+  color: rgb(81, 41, 81);
+}
+
+.blog-content h1 {
+  font-size: 60px;
+}
+.blog-content p {
+  font-weight: 30%;
+  font-size: 20px;
+}
+
+.blog-grid {
+  display: grid;
 }
