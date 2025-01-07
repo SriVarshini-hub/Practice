@@ -170,23 +170,31 @@ ul {
 }
 
 .blog-img {
-  background-color: #734056ad;
+  background-color: #d99fd1;
   border-radius: 10px;
   padding: 20px;
   margin: 20px;
+  gap: 7px;
 }
 .blog-img img {
   float: left;
   padding: 2%;
+  width: 45%;
+  height: 95%;
 }
-.blog-img p {
-  font-size: 15px;
-  font-weight: 100px;
+.blog-img h2 {
+  color: #693869;
 }
 .order-btn {
   background-color: #f3dbd3fc;
   border-radius: 5px;
+  padding: 10px;
 }
 .order-btn button:hover {
-  background-color: #cd43cd;
+  background-color: #dd7add;
+}
+
+.footer-grid div {
+  display: grid;
+  grid-auto-columns: auto;
 }
