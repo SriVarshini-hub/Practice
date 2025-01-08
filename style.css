@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Comic+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Chango&family=Mukta:wght@200;300;400;500;600;700;800&family=Stylish&display=swap");
 * {
   margin: 0;
   border: 0;
@@ -12,6 +12,7 @@ body {
   font-weight: 400;
   font-style: normal;
 }
+
 .nav-container {
   display: flex;
   background-color: #7d5b74;
@@ -25,6 +26,7 @@ body {
 }
 
 .nav-container h1 {
+  font-family: "Abril Fatface", serif;
   color: #e3d3e3;
   font-size: 25px;
 }
@@ -166,24 +168,26 @@ ul {
 .blog-grid {
   display: grid;
   grid-template-columns: auto auto;
-  padding: 10px;
+  padding: 5px;
 }
 
-.blog-img {
-  background-color: #d99fd1;
-  border-radius: 10px;
+.blog-img-content {
   padding: 20px;
-  margin: 20px;
-  gap: 7px;
+  margin: 70px;
+  text-align: justify;
+  align-content: center;
 }
-.blog-img img {
+.blog-img {
   float: left;
   padding: 2%;
-  width: 45%;
-  height: 95%;
 }
 .blog-img h2 {
   color: #693869;
+}
+
+.blog-img-content p {
+  font-size: 16px;
+  font-weight: 80%;
 }
 .order-btn {
   background-color: #f3dbd3fc;
@@ -194,7 +198,34 @@ ul {
   background-color: #dd7add;
 }
 
-.footer-grid div {
-  display: grid;
-  grid-auto-columns: auto;
+.footer-sec {
+  background-color: #7d5b74;
+  display: flex;
+  justify-content: space-between;
+  padding: 4%;
+  align-items: center;
+}
+
+.footer-grid {
+  font-family: "Abril Fatface", serif;
+  color: #e3d3e3;
+  font-size: 25px;
+  padding: 6%;
+}
+.footer-grid p {
+  font-size: 20px;
+  text-align: center;
+}
+
+.footer-grid2 input {
+  padding: 10px 90px;
+  border-radius: 5px;
+}
+
+.footer-grid2 button {
+  padding: 10px 25px;
+  border-radius: 5px;
+}
+.footer-grid2 button:hover {
+  background-color: #e3d3e3;
 }
