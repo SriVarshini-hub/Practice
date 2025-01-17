@@ -125,8 +125,7 @@ body {
   border-radius: 10px;
 }
 
-.card-img ul,
-li {
+.card-img ul li {
   list-style-type: none;
   display: inline;
 }
@@ -136,9 +135,7 @@ li {
   font-weight: 100px;
 }
 
-.card-img p,
-h2,
-ul {
+.card-img p h2 ul {
   padding-left: 12px;
 }
 
@@ -174,14 +171,20 @@ ul {
 .blog-img-content {
   padding: 20px;
   margin: 70px;
-  text-align: justify;
-  align-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 6px;
+}
+.order-btn {
+  align-items: center;
+  width: 150px;
 }
 .blog-img {
   float: left;
   padding: 2%;
 }
-.blog-img h2 {
+.blog-img-content h2 {
   color: #693869;
 }
 
@@ -202,7 +205,7 @@ ul {
   background-color: #7d5b74;
   display: flex;
   justify-content: space-between;
-  padding: 4%;
+  padding: 2%;
   align-items: center;
 }
 
@@ -210,13 +213,32 @@ ul {
   font-family: "Abril Fatface", serif;
   color: #e3d3e3;
   font-size: 25px;
-  padding: 6%;
+  padding: 3%;
 }
 .footer-grid p {
   font-size: 20px;
   text-align: center;
 }
 
+.footer-grid1-content {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  text-align: justify;
+  gap: 15px;
+}
+
+.footer-grid1 {
+  flex-direction: column;
+  display: flex;
+  gap: 8px;
+}
+
+.footer-grid2-flex {
+  flex-direction: column;
+  display: flex;
+  gap: 16px;
+}
 .footer-grid2 input {
   padding: 10px 90px;
   border-radius: 5px;
@@ -228,4 +250,14 @@ ul {
 }
 .footer-grid2 button:hover {
   background-color: #e3d3e3;
+}
+.footer-grid2-img img {
+  gap: 3px;
+  width: 40px;
+  height: 40px;
+}
+
+.footer-grid2-img {
+  justify-content: space-around;
+  display: flex;
 }
