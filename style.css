@@ -176,14 +176,7 @@ body {
   align-items: start;
   gap: 6px;
 }
-.order-btn {
-  align-items: center;
-  width: 150px;
-}
-.blog-img {
-  float: left;
-  padding: 2%;
-}
+
 .blog-img-content h2 {
   color: #693869;
 }
@@ -192,7 +185,14 @@ body {
   font-size: 16px;
   font-weight: 80%;
 }
+.blog-img {
+  float: left;
+  padding: 2%;
+}
+
 .order-btn {
+  align-items: center;
+  width: 150px;
   background-color: #f3dbd3fc;
   border-radius: 5px;
   padding: 10px;
@@ -263,6 +263,114 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+  .menu li {
+    padding: 1px;
+    font-size: 15px;
+    margin: 2px;
+  }
   .nav-container {
+    padding: 20px;
+  }
+  .img-container {
+    height: 80vh;
+    padding: 8px;
+  }
+  .img-txt {
+    padding-top: 20%;
+    padding-left: 5%;
+    padding-bottom: 4%;
+    font-size: 30px;
+  }
+  .form input {
+    padding: 10px 40px;
+    border-radius: 5px;
+  }
+  .card-sec {
+    padding: 20px;
+    background-color: #faf1f7;
+  }
+
+  .card-content {
+    padding: 20px;
+  }
+  .card-img {
+    padding: 25px;
+    margin: 25px;
+  }
+  .card-content h1 {
+    font-size: 40px;
+  }
+  .card-flex {
+    display: flex;
+    flex-direction: column;
+  }
+  /* .card-img ul li {
+    padding-right: 2px;
+  } */
+  .card-img img {
+    padding: 1px;
+  }
+  .blog-content h1 {
+    font-size: 40px;
+  }
+  .blog-sec {
+    padding: 10px;
+  }
+
+  .blog-content {
+    padding: 5px;
+  }
+  .blog-grid {
+    grid-template-columns: auto;
+    padding: 5px;
+  }
+
+  .blog-img-content {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    padding: 25px;
+    margin: 5px;
+  }
+  .blog-img-content h2 {
+    font-size: 16px;
+    font-weight: 40%;
+  }
+  .blog-img-content p {
+    font-size: 16px;
+    font-weight: 40%;
+  }
+  .blog-img {
+    padding: 2%;
+  }
+  .blog-img img {
+    border-radius: 8px;
+  }
+  .blog-grid {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  .blog-img-content {
+    flex-direction: column;
+    display: flex;
+    gap: 10px;
+  }
+  .order-btn {
+    border-radius: 10px;
+    padding: 10px;
+    width: 100px;
+  }
+  .footer-sec {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+  }
+  .footer-grid1 {
+    padding: 20px;
+    text-align: center;
+  }
+  .footer-grid1-content {
+    text-align: center;
   }
 }
