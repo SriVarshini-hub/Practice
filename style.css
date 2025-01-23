@@ -261,3 +261,8 @@ body {
   justify-content: space-around;
   display: flex;
 }
+
+@media only screen and (max-width: 600px) {
+  .nav-container {
+  }
+}
