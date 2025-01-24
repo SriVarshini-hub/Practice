@@ -122,7 +122,7 @@ body {
 
 .card-img img {
   padding: 10px;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .card-img ul li {
@@ -133,15 +133,20 @@ body {
 .card-img p {
   font-size: 15px;
   font-weight: 100px;
-}
-
-.card-img p h2 ul {
   padding-left: 12px;
 }
 
+.card-img h2 {
+  padding-left: 12px;
+}
+
+.card-img ul {
+  padding-left: 12px;
+}
 .card-flex {
   display: flex;
   justify-content: space-between;
+  padding: 10px;
 }
 .blog-sec {
   padding: 40px 40px;
@@ -264,9 +269,11 @@ body {
 
 @media only screen and (max-width: 600px) {
   .menu li {
-    padding: 1px;
     font-size: 15px;
     margin: 2px;
+  }
+  .menu ul {
+    padding: 0;
   }
   .nav-container {
     padding: 20px;
@@ -276,7 +283,7 @@ body {
     padding: 8px;
   }
   .img-txt {
-    padding-top: 20%;
+    padding-top: 40%;
     padding-left: 5%;
     padding-bottom: 4%;
     font-size: 30px;
@@ -303,10 +310,9 @@ body {
   .card-flex {
     display: flex;
     flex-direction: column;
+    align-items: left;
   }
-  /* .card-img ul li {
-    padding-right: 2px;
-  } */
+
   .card-img img {
     padding: 1px;
   }
